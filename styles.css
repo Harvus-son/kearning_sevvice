@@ -22,3 +22,29 @@ h1{letter-spacing:-.065em;line-height:1.02}
 footer{max-width:1240px}
 @media(max-width:700px){.hero{min-height:500px;padding-top:82px}.hero-meta{flex-wrap:wrap;line-height:1.8}.course-info p{min-height:0}}
 @media(prefers-reduced-motion:reduce){.course-card:hover,.primary-button:hover{transform:none}}
+
+/* Palette refinement — Learning Space hub */
+:root{
+  --bg:#101522;--panel:#1a2232;--panel-2:#222d40;
+  --text:#e8edf5;--muted:#9aa7ba;--line:rgba(220,230,242,.10);
+  --mint:#8bc5b5;--blue:#9caed2;
+}
+body{background:radial-gradient(ellipse at 78% 0%,rgba(124,145,190,.09),transparent 40%),var(--bg)}
+.ambient-one{background:#7184b7;opacity:.08}.ambient-two{background:#6b9c8b;opacity:.07}
+.brand-mark,.primary-button{background:#8bc5b5;color:#14221f}
+.topbar nav a:hover,footer a:hover,.top-link,.eyebrow,.live-dot{color:#9bcbbd}
+.live-dot{background:#9bcbbd;box-shadow:0 0 10px rgba(155,203,189,.35)}
+h1 span,.about h2 span{color:#aab9d8}
+.course-card{background:linear-gradient(155deg,#1d283a,#192334);border-color:rgba(220,230,242,.09)}
+.course-card:hover{border-color:rgba(139,197,181,.35)}
+.course-icon,.card-bottom a{background:rgba(139,197,181,.12);color:#9bcbbd}
+.python-card .course-icon,.python-card .card-bottom a{background:rgba(196,166,111,.12);color:#d5b77f}
+.python-card .course-tag{color:#d5b77f}
+.course-tag{color:#9bcbbd}
+.globe{background:linear-gradient(145deg,#a9d0c5,#668f88);color:#18332f;box-shadow:0 0 55px rgba(139,197,181,.14)}
+.bubble-b{color:#b6c4df}
+.code-window{border-color:rgba(156,174,210,.2)}
+.code-line span,.code-spark{color:#aab9d8}.code-line em{color:#9bcbbd}
+.about{background:linear-gradient(115deg,rgba(156,174,210,.08),rgba(139,197,181,.045))}
+.about-symbol{background:rgba(139,197,181,.11);color:#9bcbbd}
+.primary-button:focus-visible,.top-link:focus-visible,.card-bottom a:focus-visible{outline-color:#aab9d8}
